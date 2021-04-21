@@ -15,9 +15,11 @@ int     is_power_of_2(unsigned int n)
 
 }
 
-void ft_putnbr(int n)
+void ft_putnbr(int nb)
 {
-   
+    long n;
+    
+    n = nb;
     if (n < 0){
         ft_putchar('-');
         n = -n;
